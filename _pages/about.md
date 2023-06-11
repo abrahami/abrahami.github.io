@@ -2,16 +2,16 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Ph.D. candidate, Ben Gurion University. Research Fellow, the Data Science Institute, Reichman University.
 
 profile:
   align: right
   image: avrahami_picture_2022.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Office #106, Building 96</p>
+    <p>Ben Gurion University</p>
+    <p>Beer-Sheva, Israel</p>
 
 news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
@@ -19,7 +19,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-My name is Abraham Israeli. People who know me name me Avrahami. I am a data science researcher and mostly interested in computational social science.
+My name is Abraham Israeli, although those familiar with me refer to me as Avrahami. My professional focus lies in the field of data science research, particularly within the realm of computational social science.
 
 Matan is the king! the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
