@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Ph.D. candidate, Ben Gurion University. Research Fellow, the Data Science Institute, Reichman University.
+subtitle: Data Scientist
 
 profile:
   align: right
@@ -14,15 +14,15 @@ profile:
     <p>Beer-Sheva, Israel</p>
 
 news: true  # includes a list of news items
-latest_posts: true  # includes a list of the newest posts
+latest_posts: false  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-My name is Abraham Israeli, although those familiar with me refer to me as Avrahami. My professional focus lies in the field of data science research, particularly within the realm of computational social science.
+My name is Abraham Israeli, although those familiar with me refer to me as <b> Avrahami </b>. My professional focus lies in the field of data science research, particularly within the realm of computational social science.
 
-Matan is the king! the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am currently a Ph.D. candidate at the Ben Gurion University of the Negev, advised by Dr. Oren Tsur. I am a member of the Natural Language Processing and Social Dynamics lab (<a href="https://www.naslab.ise.bgu.ac.il/">NASLB</a>) within the Software and Information Systems Engineering department (<a href="https://in.bgu.ac.il/en/engn/sise/ennew/Pages/default.aspx">SISE</a>).
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Alongside my Ph.D. studies, I am a Research Fellow at the Data Science Institute (<a href="https://www.runi.ac.il/en/research-institutes/business/dsi/">DSI</a>), Reichman University. I lead research projects associated with Natural Language Processing (NLP) and Social Analytics. I manage teams of 6-10 researchers, most of whom are undergraduate and master's students. These projects are strongly related to my Ph.D. research field.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Although I am researching social media platforms, I am not too active on those 😊. However, you can find me on [LinkeIn](https://www.linkedin.com/in/avrahami-israeli/).
