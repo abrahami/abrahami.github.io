@@ -2,96 +2,115 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Abraham (Avrahami) Israeli
+    - name: Address
+      value: Kfar-Saba, Israel
     - name: Languages
-      value: English, German
+      value: Hebrew, English
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Ph.D. in Data Science
+      institution: Ben-Gurion University, Israel
+      year: 2018-2023
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Computational Social Science.
+        - Dissertation Title - "Complex Modeling of Online Communities".
+        - Supervisor - Dr. Oren Tsur.
+    - title: MSc in machine learning and data science 
+      institution: Ben-Gurion University, Israel
+      year: 2015-2018
       description:
-        - Description 1.
-        - Description 2.
+        - Resgression models, machine learning.
+        - Thesis title - "Constraint learning based gradient boosting trees".
+        - Supervisors - Prof. Lior Rokach and Prof. Asaf Shabtai.
+    - title: BSc in Industrial Engineering & Mgmt and BA in Economics 
+      institution: Technion, Israel Institute of Technology
+      year: 2007-2011
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Research Fellow
+      institution: The Data Science Institute (DSI), Reichman University, Israel.
+      year: 2020-Now
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Leading all NLP and social-media research projects.
+        - Collaborations with the Israel Innovation Authority
+        - Projects are typically consist of 6-10 researchers.
+        - Advising under-graduate and Master's studens
+    - title: Senior Data Scientist
+      institution: Advanced Analytics, Intel
+      year: 2018-2020
       description:
-        - Description 1.
-        - Description 2.
+        - Responsible for developing NLP-based algorithms.
+        - Deployment to the production of sales and marketing applications.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Senior Data Scientist Manager
+      institution: Advanced Analytics, Intel
+      year: 2016-2018
       description:
+        - Responsible for the whole data science activity in the group.
+        - Direct manager of 6-7 data scientists.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    - title: Data Scientist
+      institution: Advanced Analytics, Intel
+      year: 2012 - 2016
+      description:
+        - Developing machine learning solutions.
+        - Responsible for the education sessions in the field of artificial intelligence.
 
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Research Assistant
+      institution: IBM Labs, Haifa, Israel
+      year: 2010 - 2012
+      description:
+        - Responsible for developing regression prediction models.
+        - Water consumption prediction project, IBM ‘Smart Planet’ initiative.
+
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2023
       items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
+        - Dean’s excellence list 2023.
+    - year: 2022
       items: 
-        - Max Planck Medal
+        - NAACL WOAH workshop scholarship.
+    - year: 2020
+      items: 
+        - The Israeli President’s Prize for Excellence in Science and Innovation.
+    - year: 2019
+      items: 
+        - Full travel grant EurNLP 2019.
+    - year: 2010-2011
+      items: 
+        - Outstanding teaching assistant award (4 times).
+    - year: 2007-2011
+      items: 
+        - President’s list (6 times).
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Computational Social Science
       items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Online communities.
+        - Online Users' Behavior.
+        - Collective Actions.
+    - title: Hate Speech
       items:
-        - Description 1.
-        - Description 2.
+        - Hate Mongers Detection.
+        - Countering hate speech.
+    - title: Natural Language Processing
+      items:
+        - LLMs and transformers.
+        - Text classification.
 
-- title: Other Interests
+- title: Other Noteworthy Activities and Skills
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> Hiking, Trekking, running, basketball, carpentry.
+    - <u>Others:</u> Marathon runner, Tel Aviv 2014; Kilimanjaro climb, Tanzania 2019.
+  

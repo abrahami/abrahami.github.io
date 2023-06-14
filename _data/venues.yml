@@ -1,6 +1,19 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
+"DEEM":
+  url: http://deem-workshop.org/
+  color: "#009f0d"
+
+"ESWA":
+  url: https://www.sciencedirect.com/journal/expert-systems-with-applications
   color: "#00369f"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"WANLP":
+  url: https://sites.google.com/view/wanlp2022/
+  color: "#9f4800"
+
+"WOAH":
+  url: https://www.workshopononlineabuse.com/
+  color: "#7a009f"
+
+"WWW":
+  url: https://www2022.thewebconf.org/
+  color: "#9f0018"

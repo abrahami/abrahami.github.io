@@ -4,62 +4,105 @@
 @string{aps = {American Physical Society,}}
 
 @inproceedings{bringer2019osprey,
+  abbr={DEEM},
   title={Osprey: Weak supervision of imbalanced extraction problems without code},
   author={Bringer, Eran and Israeli, Abraham and Shoham, Yoav and Ratner, Alex and R{\'e}, Christopher},
   booktitle={Proceedings of the 3rd International Workshop on Data Management for End-to-End Machine Learning},
   pages={1--11},
   year={2019},
+  abstract={Supervised methods are commonly used for machine-learning based applications but require expensive labeled dataset creation and maintenance. Increasingly, practitioners employ weak supervision approaches, where training labels are programmatically generated in higher-level but noisier ways. 
+            However, these approaches require domain experts with programming skills. Additionally, highly imbalanced data is often a significant practical challenge for these approaches.
+            In this work, we propose Osprey, a weak-supervision system suited for highly-imbalanced data, built on top of the Snorkel framework.
+            In order to support non-coders, the programmatic labeling is decoupled into a code layer and a configuration one. This decoupling enables a rapid development of end-to-end systems by encoding the business logic into the configuration layer. 
+            We apply the resulting system on highly-imbalanced (0.05 percentage positive) social-media data using a synthetic data rebalancing and augmentation approach, and a novel technique of ensembling a generative model over the legacy rules with a learned discriminative model.
+            We demonstrate how an existing rule-based model can be transformed easily into a weakly-supervised one. 
+            For 3 relation extraction applications based on real-world deployments at Intel, we show that with a fraction of the cost, we achieve gains of 18.5 precision points and 28.5 coverage points over prior traditionally supervised and rules-based approaches.},
   url={https://dl.acm.org/doi/abs/10.1145/3329486.3329492},
   html={https://dl.acm.org/doi/abs/10.1145/3329486.3329492},
   pdf={Osprey_2019.pdf}
 }
 
 @article{israeli2019constraint,
+  abbr={ESWA},
   title={Constraint learning based gradient boosting trees},
   author={Israeli, Abraham and Rokach, Lior and Shabtai, Asaf},
   journal={Expert Systems with Applications},
   volume={128},
   pages={287--300},
   year={2019},
-  publisher={Elsevier}
+  publisher={Elsevier},
+  abstract={Predictive regression models aim to find the most accurate solution to a given problem, often without any constraints related to the model’s predicted values. Such constraints have been used in prior research where they have been applied to a subpopulation within the training dataset which is of greater interest and importance. In this research we introduce a new setting of regression problems, in which each instance can be assigned a different constraint, defined based on the value of the target (predicted) attribute. 
+            The new use of constraints is taken into account and incorporated into the learning process, and is also considered when evaluating the induced model. We propose two algorithms which are modifications to the regression boosting method. There are two advantages of the proposed algorithms: they are not dependent on the base learner used during the learning process, and they can be adopted by any boosting technique. We implemented the algorithms by modifying the gradient boosting trees (GBT) model, and we also introduced two measures for evaluating the models that were trained to solve the constraint problems. 
+            We compared the proposed algorithms to three baseline algorithms using four real-life datasets. Due to the algorithms’ focus on satisfying the constraints, in most cases the results showed significant improvement in the constraint-related measures, with just a minimal effect on the general prediction error. The main impact of the proposed approach is in its ability to derive a model with a higher level of assurance for specific cases of interest (i.e., the constrained cases). This is extremely important and has great significance in various use cases and expert and intelligent systems, particularly critical systems, such as critical healthcare systems (e.g., when predicting blood pressure or blood sugar level), safety systems (e.g., when aiming to estimate the distance of cars or airplanes from other objects), or critical industrial systems (e.g., require to estimate their usability along time). 
+            In each of these cases, there is a subpopulation of all instances that is of greater interest to the expert or system, and the sensitivity of the model’s error changes according to the real value of the predicted feature. For example, for a subpopulation of patients (e.g., patients under the age of eight, or patients known to be at risk), physicians often require a sensitive model that accurately predicts blood pressure values.},
+  url={https://www.sciencedirect.com/science/article/pii/S0957417419301630},
+  html={https://www.sciencedirect.com/science/article/pii/S0957417419301630},
+  pdf={constraint_learning_2019.pdf}
 }
 
 @inproceedings{israeli2021idc,
+  abbr={WANLP},
   title={The idc system for sentiment classification and sarcasm detection in Arabic},
   author={Israeli, Abraham and Nahum, Yotam and Fine, Shai and Bar, Kfir},
   booktitle={Proceedings of the Sixth Arabic Natural Language Processing Workshop},
   pages={370--375},
-  year={2021}
+  year={2021},
+  abstract={entiment classification and sarcasm detection attract a lot of attention by the NLP research community. However, solving these two problems in Arabic and on the basis of social network data (i.e., Twitter) is still of lower interest. In this paper we present designated solutions for sentiment classification and sarcasm detection tasks that were introduced as part of a shared task by Abu Farha et al. (2021). 
+            We adjust the existing state-of-the-art transformer pretrained models for our needs. In addition, we use a variety of machine-learning techniques such as down-sampling, augmentation, bagging, and usage of meta-features to improve the models performance. We achieve an F1-score of 0.75 over the sentiment classification problem where the F1-score is calculated over the positive and negative classes (the neutral class is not taken into account). 
+            We achieve an F1-score of 0.66 over the sarcasm detection problem where the F1-score is calculated over the sarcastic class only. In both cases, the above reported results are evaluated over the ArSarcasm-v2–an extended dataset of the ArSarcasm (Farha and Magdy, 2020) that was introduced as part of the shared task. This reflects an improvement to the state-of-the-art results in both tasks.},
+  url={https://aclanthology.org/2021.wanlp-1.48/},
+  html={https://aclanthology.org/2021.wanlp-1.48/},
+  pdf={wanlp_2021.pdf}
 }
 
 @inproceedings{israeli2022free,
+  abbr={WOAH},
   title={Free speech or Free Hate Speech? Analyzing the Proliferation of Hate Speech in Parler},
   author={Israeli, Abraham and Tsur, Oren},
   booktitle={Proceedings of the Sixth Workshop on Online Abuse and Harms (WOAH)},
   pages={109--121},
   year={2022},
-  selected={true}
+  selected={true},
+  abstract={Social platforms such as Gab and Parler, branded as ‘free-speech’ networks, have seen a significant growth of their user base in recent years. This popularity is mainly attributed to the stricter moderation enforced by mainstream platforms such as Twitter, Facebook, and Reddit.In this work we provide the first large scale analysis of hate-speech on Parler. 
+            We experiment with an array of algorithms for hate-speech detection, demonstrating limitations of transfer learning in that domain, given the illusive and ever changing nature of the ways hate-speech is delivered. In order to improve classification accuracy we annotated 10K Parler posts, which we use to fine-tune a BERT classifier. Classification of individual posts is then leveraged for the classification of millions of users via label propagation over the social network. 
+            Classifying users by their propensity to disseminate hate, we find that hate mongers make 16.1 percentage of Parler active users, and that they have distinct characteristics comparing to other user groups. We further complement our analysis by comparing the trends observed in Parler to those found in Gab. To the best of our knowledge, this is among the first works to analyze hate speech in Parler in a quantitative manner and on the user level.},
+  url={https://aclanthology.org/2022.woah-1.11/},
+  html={https://aclanthology.org/2022.woah-1.11/},
+  pdf={parler_2022.pdf}
 }
 
 @inproceedings{israeli2022must,
+  abbr={WWW},
   title={This Must Be the Place: Predicting Engagement of Online Communities in a Large-scale Distributed Campaign},
   author={Israeli, Abraham and Kremiansky, Alexander and Tsur, Oren},
   booktitle={Proceedings of the ACM Web Conference 2022},
   pages={1673--1684},
   year={2022},
-  selected={true}
+  selected={true},
+  abstract={Understanding collective decision making at a large-scale, and elucidating how community organization and community dynamics shape collective behavior are at the heart of social science research. In this work we study the behavior of thousands of communities with millions of active members. We define a novel task: predicting which community will undertake an unexpected, large-scale, distributed campaign. To this end, we develop a hybrid model, combining textual cues, community meta-data, and structural properties. We show how this multi-faceted model can accurately predict large-scale collective decision-making in a distributed environment. We demonstrate the applicability of our model through Reddit’s r/place – a large-scale online experiment in which millions of users, self-organized in thousands of communities, clashed and collaborated in an effort to realize their agenda.
+            Our hybrid model achieves a high F1 prediction score of 0.826. We find that coarse meta-features are as important for prediction accuracy as fine-grained textual cues, while explicit structural features play a smaller role. Interpreting our model, we provide and support various social insights about the unique characteristics of the communities that participated in the r/place experiment.
+            Our results and analysis shed light on the complex social dynamics that drive collective behavior, and on the factors that propel user coordination. The scale and the unique conditions of the r/place experiment suggest that our findings may apply in broader contexts, such as online activism, (countering) the spread of hate speech and reducing political polarization. The broader applicability of the model is demonstrated through an extensive analysis of the WallStreetBets community, their role in r/place and four years later, in the GameStop short squeeze campaign of 2021.},
+  url={https://dl.acm.org/doi/abs/10.1145/3485447.3512238},
+  html={https://dl.acm.org/doi/abs/10.1145/3485447.3512238},
+  pdf={www_rplace_2022.pdf}
 }
 
 @article{israeli2022unsupervised,
+  abbr={ESWA},
   title={Unsupervised discovery of non-trivial similarities between online communities},
   author={Israeli, Abraham and Cohen, Shani and Tsur, Oren},
   journal={Expert Systems with Applications},
   volume={206},
   pages={117900},
   year={2022},
-  publisher={Elsevier}
+  publisher={Elsevier},
+  abstract={Language is used differently across communities. The differences may be manifested in vocabulary, style, and semantics. These differences enable the exploration of nuanced similarities and differences between communities. In this work, we introduce C3 — a novel unsupervised approach for community comparison. C3 creates contextual pairwise representations by aligning communities and tuning word embeddings according to both the lexical context and the social context reflected by the community’s structure and the community engagement patterns. Specifically, C3 takes into account the semantic relations between pairs of words, reflected by the embeddings model of each community, and leverages the social context and users’ role in their community to calculate a similarity measure between community pairs. C3 is evaluated over a dataset of 1565 active Reddit communities, comparing results against three competitive models. We show through an array of experiments and validations that C3 recovers nuanced and not-trivial similarities between communities that are not captured by any of the competitive models. We complement the quantitative results with a qualitative analysis, discussing recovered non-trivial similarities between community pairs such as: opiates and adhd, babyBumps and depression, wallStreetBets and sandersForPresident, all of which are recovered by C3 but not by any of the other models. This qualitative analysis demonstrates the exploratory power of our model.},
+  url={https://www.sciencedirect.com/science/article/pii/S0957417422011472},
+  html={https://www.sciencedirect.com/science/article/pii/S0957417422011472},
+  pdf={C3_2022.pdf}
 }
 
+#Examples I used - not related to my research (I wish...)
 @article{PhysRev.47.777,
   abbr={PhysRev},
   title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
@@ -79,7 +122,7 @@
   pdf={example_pdf.pdf},
   altmetric={248277},
   dimensions={true},
-  selected={true}
+  selected={false}
 }
 
 @article{einstein1905molekularkinetischen,
