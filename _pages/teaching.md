@@ -2,7 +2,7 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: I love teaching 🤓 Despite its demanding nature in terms of time investment, I have persistently engaged in teaching over years.
+description: I love teaching 🤓 Despite its demanding nature in terms of time investment, I have persistently engaged in teaching over years. I tech various courses realted to data sciecne, in undergraduate and graduate programs.
 to_publish: true
 nav: true
 nav_order: 5
@@ -16,8 +16,8 @@ nav_order: 5
   <div class="p-3">
     <div class="row">
       <div class="col-sm-10">
-        <h5 id="AdvancedStats" class="card-title">Advanced Statistics</h5>
-        <!--<h6 class="card-subtitle font-italic">Fall 2022 and Spring 2023: Head UTA</h6>-->
+        <h5 id="AdvancedStats" class="card-title">Advanced Statistics, 382.1.2201</h5>
+        <h6 class="card-subtitle font-italic">Data Science Program, Bachelor's Degree</h6>
       </div>
     </div>
     <ul class="card-text font-weight-light list-group list-group-flush">
@@ -27,7 +27,7 @@ nav_order: 5
             Winter 22'-23', 83 Students <br> <b>Lecturer.</b> Full responsibility to the course content, TAs, and exams 
           </div>
           <div class="col-sm-3">
-            <a href="assets\teaching_feedbacks\Survey_english_stats_2023.xls" download>Students Feedback</a>
+            <a href="../assets/teaching_feedbacks/stats_winter_2023.xls" download>Students Feedback</a>
           </div>
         </div>
       </li>
@@ -37,7 +37,7 @@ nav_order: 5
             Winter 21'-22', 74 Students <br> <b>Lecturer.</b> Full responsibility to the course content, TAs, and exams
           </div>
           <div class="col-sm-3">
-            <a href="assets\teaching_feedbacks\Survey_english_stats_2023.xls" download>Students Feedback</a>
+            <a href="../assets/teaching_feedbacks/stats_winter_2022.xls" download>Students Feedback</a>
           </div>
         </div>
       </li>
@@ -50,7 +50,8 @@ nav_order: 5
   <div class="p-3">
     <div class="row">
       <div class="col-sm-10">
-        <h5 id="StatsSoftwareEngineers" class="card-title">Statistics For Software Engineers</h5>
+        <h5 id="StatsSoftwareEngineers" class="card-title">Statistics For Software Engineers, 372.1.3071</h5>
+        <h6 class="card-subtitle font-italic">Software Engineering Program, Bachelor's Degree</h6>
       </div>
     </div>
     <ul class="card-text font-weight-light list-group list-group-flush">
@@ -60,7 +61,7 @@ nav_order: 5
             Spring 20'-21', 107 Students <br> <b>Head Teaching Assistant.</b> Responsibility to the tutorials, HWs, and exams 
           </div>
           <div class="col-sm-3">
-            <a href="assets\teaching_feedbacks\Survey_english_stats_2023.xls" download>Students Feedback</a>
+            <a href="../assets/teaching_feedbacks/stats_spring_2021.xls" download>Students Feedback</a>
           </div>
         </div>
       </li>
@@ -70,7 +71,7 @@ nav_order: 5
             Spring 19'-20', 117 Students <br> <b>Lecturer.</b> Full responsibility to the course content, TAs, and exams
           </div>
           <div class="col-sm-3">
-            <a href="assets\teaching_feedbacks\Survey_english_stats_2023.xls" download>Students Feedback</a>
+            <a href="../assets/teaching_feedbacks/stats_spring_2020.xls" download>Students Feedback</a>
           </div>
         </div>
       </li>
@@ -83,18 +84,17 @@ nav_order: 5
   <div class="p-3">
     <div class="row">
       <div class="col-sm-10">
-        <h5 id="SNA" class="card-title">Social Network Analysis</h5>
+        <h5 id="SNA" class="card-title">Social Network Analysis, 372.1.4405</h5>
+        <h6 class="card-subtitle font-italic">Data Science Program, Bachelor's Degree</h6>
       </div>
     </div>
     <ul class="card-text font-weight-light list-group list-group-flush">
       <li class="list-group-item">
         <div class="row">
           <div class="col-sm-9">
-            Spring 22'-23', 84 Students <br> <b>Head Teaching Assistant.</b> Responsibility to the tutorials, HWs, and exams 
+            Spring 22'-23', 84 Students <br> <b>Head Teaching Assistant.</b> Responsibility to the tutorials, HWs, and exams
           </div>
-          <div class="col-sm-3">
-            <a href="assets\teaching_feedbacks\Survey_english_stats_2023.xls" download>Students Feedback</a>
-          </div>
+          <!-- ADD Feedback after the survey! -->
         </div>
       </li>
       <li class="list-group-item">
@@ -103,7 +103,7 @@ nav_order: 5
             Spring 20'-21', 89 Students <br> <b>Head Teaching Assistant.</b> Responsibility to the tutorials, HWs, and exams
           </div>
           <div class="col-sm-3">
-            <a href="assets\teaching_feedbacks\Survey_english_stats_2023.xls" download>Students Feedback</a>
+            <a href="../assets/teaching_feedbacks/sna_spring_2021.xls" download>Students Feedback</a>
           </div>
         </div>
       </li>
@@ -120,8 +120,8 @@ nav_order: 5
   <div class="p-3">
     <div class="row">
       <div class="col-sm-10">
-        <h5 id="AdvancedML" class="card-title">Advanced Machine Learning</h5>
-        <!--<h6 class="card-subtitle font-italic">Fall 2022 and Spring 2023: Head UTA</h6>-->
+        <h5 id="AdvanceML" class="card-title">Advance Machine Learning, 3603</h5>
+        <h6 class="card-subtitle font-italic">Data Science Program, Master's Degree</h6>
       </div>
     </div>
     <ul class="card-text font-weight-light list-group list-group-flush">
@@ -131,28 +131,26 @@ nav_order: 5
             Spring 21'-22', 55 Students <br> <b>Head Teaching Assistant.</b> Responsibility to the tutorials, HWs, and final project
           </div>
           <div class="col-sm-3">
-            <a href="assets\teaching_feedbacks\Survey_english_stats_2023.xls" download>Students Feedback</a>
+            <a href="../assets/teaching_feedbacks/advance_ml_2022.pdf" download>Students Feedback</a>
           </div>
         </div>
       </li>
       <li class="list-group-item">
         <div class="row">
           <div class="col-sm-9">
-            Spring 20'-21', 55 Students <br> <b>Head Teaching Assistant.</b> Responsibility to the tutorials, HWs, and final project
+            Spring 20'-21', 46 Students <br> <b>Head Teaching Assistant.</b> Responsibility to the tutorials, HWs, and final project
           </div>
           <div class="col-sm-3">
-            <a href="assets\teaching_feedbacks\Survey_english_stats_2023.xls" download>Students Feedback</a>
+            <a href="../assets/teaching_feedbacks/advance_ml_2021.pdf" download>Students Feedback</a>
           </div>
         </div>
       </li>
       <li class="list-group-item">
         <div class="row">
           <div class="col-sm-9">
-            Spring 19'-20', 12 Students <br> <b>Head Teaching Assistant.</b> Responsibility to the tutorials, HWs, and final project
+            Spring 19'-20', 10 Students <br> <b>Head Teaching Assistant.</b> Responsibility to the tutorials, HWs, and final project
           </div>
-          <div class="col-sm-3">
-            <a href="assets\teaching_feedbacks\Survey_english_stats_2023.xls" download>Students Feedback</a>
-          </div>
+          <!-- No feedback - COVID19 -->
         </div>
       </li>
     </ul>
@@ -168,17 +166,18 @@ nav_order: 5
   <div class="p-3">
     <div class="row">
       <div class="col-sm-10">
-        <h5 id="dataMining" class="card-title">Data Mining</h5>
+        <h5 id="dataMining" class="card-title">Data Mining, 096411</h5>
+        <h6 class="card-subtitle font-italic">IE&M Program, Bachelor's Degree</h6>
       </div>
     </div>
     <ul class="card-text font-weight-light list-group list-group-flush">
       <li class="list-group-item">
         <div class="row">
           <div class="col-sm-9">
-            Spring 2011-2012, 55 Students <br> <b>Head Teaching Assistant.</b> Responsibility to the TAs, tutorials,HWs, and exams
+            Spring 2011-2012, 97 Students <br> <b>Head Teaching Assistant.</b> Responsibility to the TAs, tutorials, HWs, and exams
           </div>
           <div class="col-sm-3">
-            <a href="assets\teaching_feedbacks\Survey_english_stats_2023.xls" download>Students Feedback</a>
+            <a href="../assets/teaching_feedbacks/dm_spring_2012.pdf" download>Students Feedback</a>
           </div>
         </div>
       </li>
@@ -191,17 +190,28 @@ nav_order: 5
   <div class="p-3">
     <div class="row">
       <div class="col-sm-10">
-        <h5 id="stochastics" class="card-title">Stochastic Processes</h5>
+        <h5 id="stochastics" class="card-title">Stochastic Processes, 094314</h5>
+        <h6 class="card-subtitle font-italic">IE&M Program, Bachelor's Degree</h6>
       </div>
     </div>
     <ul class="card-text font-weight-light list-group list-group-flush">
       <li class="list-group-item">
         <div class="row">
           <div class="col-sm-9">
-            Winter 2010-2011, ?? Students <br> <b>Teaching Assistant.</b> Responsibility to the tutorials and HWs
+            Spring 2010-2011, 88 Students <br> <b>Teaching Assistant.</b> Responsibility to the tutorials and HWs
           </div>
           <div class="col-sm-3">
-            <a href="assets\teaching_feedbacks\Survey_english_stats_2023.xls" download>Students Feedback</a>
+            <a href="../assets/teaching_feedbacks/stochastics_spring_2011.pdf" download>Students Feedback</a>
+          </div>
+        </div>
+      </li>
+      <li class="list-group-item">
+        <div class="row">
+          <div class="col-sm-9">
+            Winter 2010-2011, 47 Students <br> <b>Teaching Assistant.</b> Responsibility to the tutorials and HWs
+          </div>
+          <div class="col-sm-3">
+            <a href="../assets/teaching_feedbacks/stochastics_winter_2011.pdf" download>Students Feedback</a>
           </div>
         </div>
       </li>
@@ -214,7 +224,8 @@ nav_order: 5
   <div class="p-3">
     <div class="row">
       <div class="col-sm-10">
-        <h5 id="probability" class="card-title">Probability</h5>
+        <h5 id="probability" class="card-title">Probability, 094411</h5>
+        <h6 class="card-subtitle font-italic">IE&M Program, Bachelor's Degree</h6>
       </div>
     </div>
     <ul class="card-text font-weight-light list-group list-group-flush">
@@ -224,17 +235,17 @@ nav_order: 5
             Spring 2009-2010, 49 Students <br> <b>Teaching Assistant.</b> Responsibility to the tutorials and HWs
           </div>
           <div class="col-sm-3">
-            <a href="assets\teaching_feedbacks\Survey_english_stats_2023.xls" download>Students Feedback</a>
+            <a href="../assets/teaching_feedbacks/probability_spring_2010.pdf" download>Students Feedback</a>
           </div>
         </div>
       </li>
       <li class="list-group-item">
         <div class="row">
           <div class="col-sm-9">
-            Winter 2009-2010, 95 Students <br> <b>Teaching Assistant.</b> Responsibility to the tutorials and HWs
+            Winter 2009-2010, 109 Students <br> <b>Teaching Assistant.</b> Responsibility to the tutorials and HWs
           </div>
           <div class="col-sm-3">
-            <a href="assets\teaching_feedbacks\Survey_english_stats_2023.xls" download>Students Feedback</a>
+            <a href="../assets/teaching_feedbacks/probability_winter_2010.pdf" download>Students Feedback</a>
           </div>
         </div>
       </li>
