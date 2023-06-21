@@ -2,7 +2,7 @@
 layout: page
 permalink: /repositories/
 title: repositories
-description: Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.
+description: I publish most of the code I use for research. I code mainly in Python. I know R and SQL well and use these where needed.
 to_publish: true
 nav: true
 nav_order: 3
