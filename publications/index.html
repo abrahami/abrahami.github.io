@@ -129,180 +129,8 @@
           <article>
             <!-- _pages/publications.md -->
 <div class="publications">
-  <h2 class="year">2019</h2>
-  <ol class="bibliography">
-<li>
-<!-- _layouts/bib.html -->
-      <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge" style="background-color:#009f0d"><a href="http://deem-workshop.org/" rel="external nofollow noopener" target="_blank">DEEM</a></abbr></div>
-
-        <!-- Entry bib key -->
-        <div id="bringer2019osprey" class="col-sm-8">
-        <!-- Title -->
-        <div class="title">Osprey: Weak supervision of imbalanced extraction problems without code</div>
-        <!-- Author -->
-        <div class="author">
-        
-
-        Eran Bringer, <em>Abraham Israeli</em>, Yoav Shoham, and
-          <span class="more-authors" title="click to view 2 more authors" onclick="
-                var element = $(this);
-                element.attr('title', '');
-                var more_authors_text = element.text() == '2 more authors' ? 'Alex Ratner, Christopher Ré' : '2 more authors';
-                var cursorPosition = 0;
-                var textAdder = setInterval(function(){
-                  element.text(more_authors_text.substring(0, cursorPosition + 1));
-                  if (++cursorPosition == more_authors_text.length){
-                    clearInterval(textAdder);
-                  }
-              }, '10');
-              ">2 more authors</span>
-</div>
-
-        <!-- Journal/Book title and date -->
-        
-        
-        <div class="periodical">
-          <em>In Proceedings of the 3rd International Workshop on Data Management for End-to-End Machine Learning</em>, 2019
-        </div>
-        <div class="periodical">
-          
-        </div>
-
-          <!-- Links/Buttons -->
-          <div class="links">
-            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-            <a href="https://dl.acm.org/doi/abs/10.1145/3329486.3329492" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
-            <a href="/al-folio/assets/pdf/Osprey_2019.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
-          </div>
-          
-          <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
-              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
-          </div>
-
-          <!-- Hidden abstract block -->
-          <div class="abstract hidden">
-            <p>Supervised methods are commonly used for machine-learning based applications but require expensive labeled dataset creation and maintenance. Increasingly, practitioners employ weak supervision approaches, where training labels are programmatically generated in higher-level but noisier ways. 
-            However, these approaches require domain experts with programming skills. Additionally, highly imbalanced data is often a significant practical challenge for these approaches.
-            In this work, we propose Osprey, a weak-supervision system suited for highly-imbalanced data, built on top of the Snorkel framework.
-            In order to support non-coders, the programmatic labeling is decoupled into a code layer and a configuration one. This decoupling enables a rapid development of end-to-end systems by encoding the business logic into the configuration layer. 
-            We apply the resulting system on highly-imbalanced (0.05 percentage positive) social-media data using a synthetic data rebalancing and augmentation approach, and a novel technique of ensembling a generative model over the legacy rules with a learned discriminative model.
-            We demonstrate how an existing rule-based model can be transformed easily into a weakly-supervised one. 
-            For 3 relation extraction applications based on real-world deployments at Intel, we show that with a fraction of the cost, we achieve gains of 18.5 precision points and 28.5 coverage points over prior traditionally supervised and rules-based approaches.</p>
-          </div>
-        </div>
-      </div>
-</li>
-<li>
-<!-- _layouts/bib.html -->
-      <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge" style="background-color:#00369f"><a href="https://www.sciencedirect.com/journal/expert-systems-with-applications" rel="external nofollow noopener" target="_blank">ESWA</a></abbr></div>
-
-        <!-- Entry bib key -->
-        <div id="israeli2019constraint" class="col-sm-8">
-        <!-- Title -->
-        <div class="title">Constraint learning based gradient boosting trees</div>
-        <!-- Author -->
-        <div class="author">
-        
-
-        <em>Abraham Israeli</em>, Lior Rokach, and Asaf Shabtai</div>
-
-        <!-- Journal/Book title and date -->
-        
-        
-        <div class="periodical">
-          <em>Expert Systems with Applications</em>, 2019
-        </div>
-        <div class="periodical">
-          
-        </div>
-
-          <!-- Links/Buttons -->
-          <div class="links">
-            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-            <a href="https://www.sciencedirect.com/science/article/pii/S0957417419301630" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
-            <a href="/al-folio/assets/pdf/constraint_learning_2019.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
-          </div>
-          
-          <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
-              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
-          </div>
-
-          <!-- Hidden abstract block -->
-          <div class="abstract hidden">
-            <p>Predictive regression models aim to find the most accurate solution to a given problem, often without any constraints related to the model’s predicted values. Such constraints have been used in prior research where they have been applied to a subpopulation within the training dataset which is of greater interest and importance. In this research we introduce a new setting of regression problems, in which each instance can be assigned a different constraint, defined based on the value of the target (predicted) attribute. 
-            The new use of constraints is taken into account and incorporated into the learning process, and is also considered when evaluating the induced model. We propose two algorithms which are modifications to the regression boosting method. There are two advantages of the proposed algorithms: they are not dependent on the base learner used during the learning process, and they can be adopted by any boosting technique. We implemented the algorithms by modifying the gradient boosting trees (GBT) model, and we also introduced two measures for evaluating the models that were trained to solve the constraint problems. 
-            We compared the proposed algorithms to three baseline algorithms using four real-life datasets. Due to the algorithms’ focus on satisfying the constraints, in most cases the results showed significant improvement in the constraint-related measures, with just a minimal effect on the general prediction error. The main impact of the proposed approach is in its ability to derive a model with a higher level of assurance for specific cases of interest (i.e., the constrained cases). This is extremely important and has great significance in various use cases and expert and intelligent systems, particularly critical systems, such as critical healthcare systems (e.g., when predicting blood pressure or blood sugar level), safety systems (e.g., when aiming to estimate the distance of cars or airplanes from other objects), or critical industrial systems (e.g., require to estimate their usability along time). 
-            In each of these cases, there is a subpopulation of all instances that is of greater interest to the expert or system, and the sensitivity of the model’s error changes according to the real value of the predicted feature. For example, for a subpopulation of patients (e.g., patients under the age of eight, or patients known to be at risk), physicians often require a sensitive model that accurately predicts blood pressure values.</p>
-          </div>
-        </div>
-      </div>
-</li>
-</ol>
-
-  <h2 class="year">2021</h2>
-  <ol class="bibliography"><li>
-<!-- _layouts/bib.html -->
-      <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge" style="background-color:#9f4800"><a href="https://sites.google.com/view/wanlp2022/" rel="external nofollow noopener" target="_blank">WANLP</a></abbr></div>
-
-        <!-- Entry bib key -->
-        <div id="israeli2021idc" class="col-sm-8">
-        <!-- Title -->
-        <div class="title">The idc system for sentiment classification and sarcasm detection in Arabic</div>
-        <!-- Author -->
-        <div class="author">
-        
-
-        <em>Abraham Israeli</em>, Yotam Nahum, Shai Fine, and
-          <span class="more-authors" title="click to view 1 more author" onclick="
-                var element = $(this);
-                element.attr('title', '');
-                var more_authors_text = element.text() == '1 more author' ? 'Kfir Bar' : '1 more author';
-                var cursorPosition = 0;
-                var textAdder = setInterval(function(){
-                  element.text(more_authors_text.substring(0, cursorPosition + 1));
-                  if (++cursorPosition == more_authors_text.length){
-                    clearInterval(textAdder);
-                  }
-              }, '10');
-              ">1 more author</span>
-</div>
-
-        <!-- Journal/Book title and date -->
-        
-        
-        <div class="periodical">
-          <em>In Proceedings of the Sixth Arabic Natural Language Processing Workshop</em>, 2021
-        </div>
-        <div class="periodical">
-          
-        </div>
-
-          <!-- Links/Buttons -->
-          <div class="links">
-            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-            <a href="https://aclanthology.org/2021.wanlp-1.48/" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
-            <a href="/al-folio/assets/pdf/wanlp_2021.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
-          </div>
-          
-          <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
-              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
-          </div>
-
-          <!-- Hidden abstract block -->
-          <div class="abstract hidden">
-            <p>entiment classification and sarcasm detection attract a lot of attention by the NLP research community. However, solving these two problems in Arabic and on the basis of social network data (i.e., Twitter) is still of lower interest. In this paper we present designated solutions for sentiment classification and sarcasm detection tasks that were introduced as part of a shared task by Abu Farha et al. (2021). 
-            We adjust the existing state-of-the-art transformer pretrained models for our needs. In addition, we use a variety of machine-learning techniques such as down-sampling, augmentation, bagging, and usage of meta-features to improve the models performance. We achieve an F1-score of 0.75 over the sentiment classification problem where the F1-score is calculated over the positive and negative classes (the neutral class is not taken into account). 
-            We achieve an F1-score of 0.66 over the sarcasm detection problem where the F1-score is calculated over the sarcastic class only. In both cases, the above reported results are evaluated over the ArSarcasm-v2–an extended dataset of the ArSarcasm (Farha and Magdy, 2020) that was introduced as part of the shared task. This reflects an improvement to the state-of-the-art results in both tasks.</p>
-          </div>
-        </div>
-      </div>
-</li></ol>
+  <h2 class="year">2023</h2>
+  <ol class="bibliography"></ol>
 
   <h2 class="year">2022</h2>
   <ol class="bibliography">
@@ -347,7 +175,7 @@
           <div class="abstract hidden">
             <p>Social platforms such as Gab and Parler, branded as ‘free-speech’ networks, have seen a significant growth of their user base in recent years. This popularity is mainly attributed to the stricter moderation enforced by mainstream platforms such as Twitter, Facebook, and Reddit.In this work we provide the first large scale analysis of hate-speech on Parler. 
             We experiment with an array of algorithms for hate-speech detection, demonstrating limitations of transfer learning in that domain, given the illusive and ever changing nature of the ways hate-speech is delivered. In order to improve classification accuracy we annotated 10K Parler posts, which we use to fine-tune a BERT classifier. Classification of individual posts is then leveraged for the classification of millions of users via label propagation over the social network. 
-            Classifying users by their propensity to disseminate hate, we find that hate mongers make 16.1 percentage of Parler active users, and that they have distinct characteristics comparing to other user groups. We further complement our analysis by comparing the trends observed in Parler to those found in Gab. To the best of our knowledge, this is among the first works to analyze hate speech in Parler in a quantitative manner and on the user level.</p>
+            Classifying users by their propensity to disseminate hate, we find that hate mongers make 16.1% of Parler active users, and that they have distinct characteristics comparing to other user groups. We further complement our analysis by comparing the trends observed in Parler to those found in Gab. To the best of our knowledge, this is among the first works to analyze hate speech in Parler in a quantitative manner and on the user level.</p>
           </div>
         </div>
       </div>
@@ -437,15 +265,253 @@
 
           <!-- Hidden abstract block -->
           <div class="abstract hidden">
-            <p>Language is used differently across communities. The differences may be manifested in vocabulary, style, and semantics. These differences enable the exploration of nuanced similarities and differences between communities. In this work, we introduce C3 — a novel unsupervised approach for community comparison. C3 creates contextual pairwise representations by aligning communities and tuning word embeddings according to both the lexical context and the social context reflected by the community’s structure and the community engagement patterns. Specifically, C3 takes into account the semantic relations between pairs of words, reflected by the embeddings model of each community, and leverages the social context and users’ role in their community to calculate a similarity measure between community pairs. C3 is evaluated over a dataset of 1565 active Reddit communities, comparing results against three competitive models. We show through an array of experiments and validations that C3 recovers nuanced and not-trivial similarities between communities that are not captured by any of the competitive models. We complement the quantitative results with a qualitative analysis, discussing recovered non-trivial similarities between community pairs such as: opiates and adhd, babyBumps and depression, wallStreetBets and sandersForPresident, all of which are recovered by C3 but not by any of the other models. This qualitative analysis demonstrates the exploratory power of our model.</p>
+            <p>Language is used differently across communities. The differences may be manifested in vocabulary, style, and semantics. These differences enable the exploration of nuanced similarities and differences between communities. 
+            In this work, we introduce C3 — a novel unsupervised approach for community comparison. C3 creates contextual pairwise representations by aligning communities and tuning word embeddings according to both the lexical context and the social context reflected by the community’s structure and the community engagement patterns. 
+            Specifically, C3 takes into account the semantic relations between pairs of words, reflected by the embeddings model of each community, and leverages the social context and users’ role in their community to calculate a similarity measure between community pairs. 
+            C3 is evaluated over a dataset of 1565 active Reddit communities, comparing results against three competitive models. We show through an array of experiments and validations that C3 recovers nuanced and not-trivial similarities between communities that are not captured by any of the competitive models. 
+            We complement the quantitative results with a qualitative analysis, discussing recovered non-trivial similarities between community pairs such as: opiates and adhd, babyBumps and depression, wallStreetBets and sandersForPresident, all of which are recovered by C3 but not by any of the other models. This qualitative analysis demonstrates the exploratory power of our model.</p>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge" style="background-color:#07aff7"><a href="http://nsurl.org/" rel="external nofollow noopener" target="_blank">NSURL</a></abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="israeli-etal-2022-love-love" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">Love Me, Love Me Not: Human-Directed Sentiment Analysis in Arabic</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        <em>Abraham Israeli</em>, Aviv Naaman, Yotam Nahum, and
+          <span class="more-authors" title="click to view 3 more authors" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '3 more authors' ? 'Razan Assi, Shai Fine, Kfir Bar' : '3 more authors';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">3 more authors</span>
+</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>In Proceedings of the Third International Workshop on NLP Solutions for Under Resourced Languages (NSURL 2022) co-located with ICNLSP 2022</em>, Dec 2022
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="https://aclanthology.org/2022.nsurl-1.4/" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
+            <a href="/al-folio/assets/pdf/nsurl_arabic_2022.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
+          </div>
+          
+          <div class="badges">
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
+              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Gauging the emotions people have toward a specific topic is a major natural language processing task, supporting various applications. The topic can be either an abstract idea (e.g., religion) or a service/product that someone writes a review about. 
+              In this work, we define the topic to be a person who writes a post on a social media platform. More precisely, we introduce a new sentiment analysis task for detecting the sentiment that is expressed by a user toward another user in a discussion thread. 
+              Modeling this new task may be beneficial for various applications, including hate-speech detection, and cyber-bullying mitigation. 
+              We focus on Arabic, which is one of the most popular spoken languages worldwide, divided into various dialects that are used on social media platforms. 
+              We compose a corpus of 3,500 pairs of tweets, with the second tweet being a response to the first one, and manually annotate them for the sentiment that is expressed in the response toward the author of the main tweet. 
+              We train several baseline models and discuss their results and limitations. The best classification result that we recorded is 82% F1 score. We release the corpus alongside the best-performing model</p>
           </div>
         </div>
       </div>
 </li>
 </ol>
 
-  <h2 class="year">2023</h2>
-  <ol class="bibliography"></ol>
+  <h2 class="year">2021</h2>
+  <ol class="bibliography"><li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge" style="background-color:#9f4800"><a href="https://sites.google.com/view/wanlp2022/" rel="external nofollow noopener" target="_blank">WANLP</a></abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="israeli2021idc" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">The idc system for sentiment classification and sarcasm detection in Arabic</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        <em>Abraham Israeli</em>, Yotam Nahum, Shai Fine, and
+          <span class="more-authors" title="click to view 1 more author" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '1 more author' ? 'Kfir Bar' : '1 more author';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">1 more author</span>
+</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>In Proceedings of the Sixth Arabic Natural Language Processing Workshop</em>, Dec 2021
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="https://aclanthology.org/2021.wanlp-1.48/" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
+            <a href="/al-folio/assets/pdf/wanlp_2021.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
+          </div>
+          
+          <div class="badges">
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
+              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>entiment classification and sarcasm detection attract a lot of attention by the NLP research community. However, solving these two problems in Arabic and on the basis of social network data (i.e., Twitter) is still of lower interest. In this paper we present designated solutions for sentiment classification and sarcasm detection tasks that were introduced as part of a shared task by Abu Farha et al. (2021). 
+            We adjust the existing state-of-the-art transformer pretrained models for our needs. In addition, we use a variety of machine-learning techniques such as down-sampling, augmentation, bagging, and usage of meta-features to improve the models performance. We achieve an F1-score of 0.75 over the sentiment classification problem where the F1-score is calculated over the positive and negative classes (the neutral class is not taken into account). 
+            We achieve an F1-score of 0.66 over the sarcasm detection problem where the F1-score is calculated over the sarcastic class only. In both cases, the above reported results are evaluated over the ArSarcasm-v2–an extended dataset of the ArSarcasm (Farha and Magdy, 2020) that was introduced as part of the shared task. This reflects an improvement to the state-of-the-art results in both tasks.</p>
+          </div>
+        </div>
+      </div>
+</li></ol>
+
+  <h2 class="year">2019</h2>
+  <ol class="bibliography">
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge" style="background-color:#009f0d"><a href="http://deem-workshop.org/" rel="external nofollow noopener" target="_blank">DEEM</a></abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="bringer2019osprey" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">Osprey: Weak supervision of imbalanced extraction problems without code</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        Eran Bringer, <em>Abraham Israeli</em>, Yoav Shoham, and
+          <span class="more-authors" title="click to view 2 more authors" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '2 more authors' ? 'Alex Ratner, Christopher Ré' : '2 more authors';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">2 more authors</span>
+</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>In Proceedings of the 3rd International Workshop on Data Management for End-to-End Machine Learning</em>, Dec 2019
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="https://dl.acm.org/doi/abs/10.1145/3329486.3329492" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
+            <a href="/al-folio/assets/pdf/Osprey_2019.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
+          </div>
+          
+          <div class="badges">
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
+              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Supervised methods are commonly used for machine-learning based applications but require expensive labeled dataset creation and maintenance. Increasingly, practitioners employ weak supervision approaches, where training labels are programmatically generated in higher-level but noisier ways. 
+            However, these approaches require domain experts with programming skills. Additionally, highly imbalanced data is often a significant practical challenge for these approaches.
+            In this work, we propose Osprey, a weak-supervision system suited for highly-imbalanced data, built on top of the Snorkel framework.
+            In order to support non-coders, the programmatic labeling is decoupled into a code layer and a configuration one. This decoupling enables a rapid development of end-to-end systems by encoding the business logic into the configuration layer. 
+            We apply the resulting system on highly-imbalanced (0.05% positive) social-media data using a synthetic data rebalancing and augmentation approach, and a novel technique of ensembling a generative model over the legacy rules with a learned discriminative model.
+            We demonstrate how an existing rule-based model can be transformed easily into a weakly-supervised one. 
+            For 3 relation extraction applications based on real-world deployments at Intel, we show that with a fraction of the cost, we achieve gains of 18.5 precision points and 28.5 coverage points over prior traditionally supervised and rules-based approaches.</p>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge" style="background-color:#00369f"><a href="https://www.sciencedirect.com/journal/expert-systems-with-applications" rel="external nofollow noopener" target="_blank">ESWA</a></abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="israeli2019constraint" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">Constraint learning based gradient boosting trees</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        <em>Abraham Israeli</em>, Lior Rokach, and Asaf Shabtai</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>Expert Systems with Applications</em>, Dec 2019
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="https://www.sciencedirect.com/science/article/pii/S0957417419301630" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
+            <a href="/al-folio/assets/pdf/constraint_learning_2019.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
+          </div>
+          
+          <div class="badges">
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
+              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Predictive regression models aim to find the most accurate solution to a given problem, often without any constraints related to the model’s predicted values. Such constraints have been used in prior research where they have been applied to a subpopulation within the training dataset which is of greater interest and importance. In this research we introduce a new setting of regression problems, in which each instance can be assigned a different constraint, defined based on the value of the target (predicted) attribute. 
+            The new use of constraints is taken into account and incorporated into the learning process, and is also considered when evaluating the induced model. We propose two algorithms which are modifications to the regression boosting method. There are two advantages of the proposed algorithms: they are not dependent on the base learner used during the learning process, and they can be adopted by any boosting technique. We implemented the algorithms by modifying the gradient boosting trees (GBT) model, and we also introduced two measures for evaluating the models that were trained to solve the constraint problems. 
+            We compared the proposed algorithms to three baseline algorithms using four real-life datasets. Due to the algorithms’ focus on satisfying the constraints, in most cases the results showed significant improvement in the constraint-related measures, with just a minimal effect on the general prediction error. The main impact of the proposed approach is in its ability to derive a model with a higher level of assurance for specific cases of interest (i.e., the constrained cases). This is extremely important and has great significance in various use cases and expert and intelligent systems, particularly critical systems, such as critical healthcare systems (e.g., when predicting blood pressure or blood sugar level), safety systems (e.g., when aiming to estimate the distance of cars or airplanes from other objects), or critical industrial systems (e.g., require to estimate their usability along time). 
+            In each of these cases, there is a subpopulation of all instances that is of greater interest to the expert or system, and the sensitivity of the model’s error changes according to the real value of the predicted feature. For example, for a subpopulation of patients (e.g., patients under the age of eight, or patients known to be at risk), physicians often require a sensitive model that accurately predicts blood pressure values.</p>
+          </div>
+        </div>
+      </div>
+</li>
+</ol>
 
 
 </div>
