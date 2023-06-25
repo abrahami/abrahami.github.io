@@ -11,9 +11,9 @@
 - title: Education
   type: time_table
   contents:
-    - title: Ph.D. in Data Science
+    - title: Ph.D. Candidate in Data Science
       institution: Ben-Gurion University, Israel
-      year: 2018-2023
+      year: 2018-
       description:
         - Computational Social Science.
         - Dissertation Title - "Complex Modeling of Online Communities".
@@ -28,6 +28,28 @@
     - title: BSc in Industrial Engineering & Mgmt and BA in Economics 
       institution: Technion, Israel Institute of Technology
       year: 2007-2011
+
+- title: Honors and Awards
+  type: time_table
+  contents:
+    - year: 2023
+      items: 
+        - Dean’s excellence list 2023.
+    - year: 2022
+      items: 
+        - NAACL WOAH workshop scholarship.
+    - year: 2020
+      items: 
+        - The Israeli President’s Prize for Excellence in Science and Innovation.
+    - year: 2019
+      items: 
+        - Full travel grant EurNLP 2019.
+    - year: 2010-2011
+      items: 
+        - Outstanding teaching assistant award (4 times).
+    - year: 2007-2011
+      items: 
+        - President’s list (6 times).
 
 - title: Experience
   type: time_table
@@ -67,29 +89,6 @@
       description:
         - Responsible for developing regression prediction models.
         - Water consumption prediction project, IBM ‘Smart Planet’ initiative.
-
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 2023
-      items: 
-        - Dean’s excellence list 2023.
-    - year: 2022
-      items: 
-        - NAACL WOAH workshop scholarship.
-    - year: 2020
-      items: 
-        - The Israeli President’s Prize for Excellence in Science and Innovation.
-    - year: 2019
-      items: 
-        - Full travel grant EurNLP 2019.
-    - year: 2010-2011
-      items: 
-        - Outstanding teaching assistant award (4 times).
-    - year: 2007-2011
-      items: 
-        - President’s list (6 times).
 
 - title: Academic Interests
   type: nested_list

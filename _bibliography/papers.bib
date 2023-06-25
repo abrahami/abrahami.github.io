@@ -14,7 +14,7 @@
             However, these approaches require domain experts with programming skills. Additionally, highly imbalanced data is often a significant practical challenge for these approaches.
             In this work, we propose Osprey, a weak-supervision system suited for highly-imbalanced data, built on top of the Snorkel framework.
             In order to support non-coders, the programmatic labeling is decoupled into a code layer and a configuration one. This decoupling enables a rapid development of end-to-end systems by encoding the business logic into the configuration layer. 
-            We apply the resulting system on highly-imbalanced (0.05 percentage positive) social-media data using a synthetic data rebalancing and augmentation approach, and a novel technique of ensembling a generative model over the legacy rules with a learned discriminative model.
+            We apply the resulting system on highly-imbalanced (0.05{\%} positive) social-media data using a synthetic data rebalancing and augmentation approach, and a novel technique of ensembling a generative model over the legacy rules with a learned discriminative model.
             We demonstrate how an existing rule-based model can be transformed easily into a weakly-supervised one. 
             For 3 relation extraction applications based on real-world deployments at Intel, we show that with a fraction of the cost, we achieve gains of 18.5 precision points and 28.5 coverage points over prior traditionally supervised and rules-based approaches.},
   url={https://dl.acm.org/doi/abs/10.1145/3329486.3329492},
@@ -65,7 +65,7 @@
   selected={true},
   abstract={Social platforms such as Gab and Parler, branded as ‘free-speech’ networks, have seen a significant growth of their user base in recent years. This popularity is mainly attributed to the stricter moderation enforced by mainstream platforms such as Twitter, Facebook, and Reddit.In this work we provide the first large scale analysis of hate-speech on Parler. 
             We experiment with an array of algorithms for hate-speech detection, demonstrating limitations of transfer learning in that domain, given the illusive and ever changing nature of the ways hate-speech is delivered. In order to improve classification accuracy we annotated 10K Parler posts, which we use to fine-tune a BERT classifier. Classification of individual posts is then leveraged for the classification of millions of users via label propagation over the social network. 
-            Classifying users by their propensity to disseminate hate, we find that hate mongers make 16.1 percentage of Parler active users, and that they have distinct characteristics comparing to other user groups. We further complement our analysis by comparing the trends observed in Parler to those found in Gab. To the best of our knowledge, this is among the first works to analyze hate speech in Parler in a quantitative manner and on the user level.},
+            Classifying users by their propensity to disseminate hate, we find that hate mongers make 16.1{\%} of Parler active users, and that they have distinct characteristics comparing to other user groups. We further complement our analysis by comparing the trends observed in Parler to those found in Gab. To the best of our knowledge, this is among the first works to analyze hate speech in Parler in a quantitative manner and on the user level.},
   url={https://aclanthology.org/2022.woah-1.11/},
   html={https://aclanthology.org/2022.woah-1.11/},
   pdf={parler_2022.pdf}
@@ -96,67 +96,34 @@
   pages={117900},
   year={2022},
   publisher={Elsevier},
-  abstract={Language is used differently across communities. The differences may be manifested in vocabulary, style, and semantics. These differences enable the exploration of nuanced similarities and differences between communities. In this work, we introduce C3 — a novel unsupervised approach for community comparison. C3 creates contextual pairwise representations by aligning communities and tuning word embeddings according to both the lexical context and the social context reflected by the community’s structure and the community engagement patterns. Specifically, C3 takes into account the semantic relations between pairs of words, reflected by the embeddings model of each community, and leverages the social context and users’ role in their community to calculate a similarity measure between community pairs. C3 is evaluated over a dataset of 1565 active Reddit communities, comparing results against three competitive models. We show through an array of experiments and validations that C3 recovers nuanced and not-trivial similarities between communities that are not captured by any of the competitive models. We complement the quantitative results with a qualitative analysis, discussing recovered non-trivial similarities between community pairs such as: opiates and adhd, babyBumps and depression, wallStreetBets and sandersForPresident, all of which are recovered by C3 but not by any of the other models. This qualitative analysis demonstrates the exploratory power of our model.},
+  abstract={Language is used differently across communities. The differences may be manifested in vocabulary, style, and semantics. These differences enable the exploration of nuanced similarities and differences between communities. 
+            In this work, we introduce C3 — a novel unsupervised approach for community comparison. C3 creates contextual pairwise representations by aligning communities and tuning word embeddings according to both the lexical context and the social context reflected by the community’s structure and the community engagement patterns. 
+            Specifically, C3 takes into account the semantic relations between pairs of words, reflected by the embeddings model of each community, and leverages the social context and users’ role in their community to calculate a similarity measure between community pairs. 
+            C3 is evaluated over a dataset of 1565 active Reddit communities, comparing results against three competitive models. We show through an array of experiments and validations that C3 recovers nuanced and not-trivial similarities between communities that are not captured by any of the competitive models. 
+            We complement the quantitative results with a qualitative analysis, discussing recovered non-trivial similarities between community pairs such as: opiates and adhd, babyBumps and depression, wallStreetBets and sandersForPresident, all of which are recovered by C3 but not by any of the other models. This qualitative analysis demonstrates the exploratory power of our model.},
   url={https://www.sciencedirect.com/science/article/pii/S0957417422011472},
   html={https://www.sciencedirect.com/science/article/pii/S0957417422011472},
   pdf={C3_2022.pdf}
 }
 
-#Examples I used - not related to my research (I wish...)
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  selected={false}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+@inproceedings{israeli-etal-2022-love-love,
+    abbr={NSURL},
+    title = {Love Me, Love Me Not: Human-Directed Sentiment Analysis in {A}rabic},
+    author = {Israeli, Abraham  and Naaman, Aviv  and Nahum, Yotam  and Assi, Razan  and Fine, Shai  and Bar, Kfir},
+    booktitle = {Proceedings of the Third International Workshop on NLP Solutions for Under Resourced Languages (NSURL 2022) co-located with ICNLSP 2022},
+    month = {dec},
+    year = {2022},
+    address = {Trento, Italy},
+    publisher = {Association for Computational Linguistics},
+    url = {https://aclanthology.org/2022.nsurl-1.4},
+    pages = {22--30},
+    abstract={Gauging the emotions people have toward a specific topic is a major natural language processing task, supporting various applications. The topic can be either an abstract idea (e.g., religion) or a service/product that someone writes a review about. 
+              In this work, we define the topic to be a person who writes a post on a social media platform. More precisely, we introduce a new sentiment analysis task for detecting the sentiment that is expressed by a user toward another user in a discussion thread. 
+              Modeling this new task may be beneficial for various applications, including hate-speech detection, and cyber-bullying mitigation. 
+              We focus on Arabic, which is one of the most popular spoken languages worldwide, divided into various dialects that are used on social media platforms. 
+              We compose a corpus of 3,500 pairs of tweets, with the second tweet being a response to the first one, and manually annotate them for the sentiment that is expressed in the response toward the author of the main tweet. 
+              We train several baseline models and discuss their results and limitations. The best classification result that we recorded is 82{\%} F1 score. We release the corpus alongside the best-performing model},
+    url={https://aclanthology.org/2022.nsurl-1.4/},
+    html={https://aclanthology.org/2022.nsurl-1.4/},
+    pdf={nsurl_arabic_2022.pdf}
 }

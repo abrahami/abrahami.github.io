@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image
-img: assets/img/3.jpg
+title: The Mine
+description: Exploring the influence of users in an online dialogue
+img: assets/img/the_mine/theMine_front.png
 importance: 2
-category: work
+category: DSI (Reichman University)
 ---
 
 Every project has a beautiful feature showcase page.

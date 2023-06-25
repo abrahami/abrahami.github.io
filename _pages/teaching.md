@@ -2,7 +2,7 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: I love teaching 🤓 Despite its demanding nature in terms of time investment, I have persistently engaged in teaching over years. I tech various courses realted to data sciecne, in undergraduate and graduate programs.
+description:
 to_publish: true
 nav: true
 nav_order: 5
@@ -10,6 +10,11 @@ nav_order: 5
 
 <!-- I have taken the template from here: https://jessewei.dev/teaching/ --> 
 <!-- the code is taken from here: https://github.com/jesse-wei/jessewei.dev/blob/master/_pages/teaching.md -->
+<h8 class="card-subtitle font-bold"> I love teaching 🤓 Despite its demanding nature in terms of time investment, I have persistently engaged in teaching over years. I teach various courses related to data science, in undergraduate and graduate programs.</h8>
+<br>
+
+<h8 class="card-subtitle font-bold">The feedback provided by students is displayed on the right-hand side (when available). These surveys, which are conducted anonymously, are implemented by each academic institution. </h8>
+<br>
 <h3 style="color: #4b9cd3;" id="BGU"><a href="https://in.bgu.ac.il/en/pages/default.aspx">Ben-Gurion University</a></h3>
 <!-- Advanced Statistics -->
 <div class="card mt-3">

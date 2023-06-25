@@ -17,3 +17,7 @@
 "WWW":
   url: https://www2022.thewebconf.org/
   color: "#9f0018"
+
+"NSURL":
+  url: http://nsurl.org/
+  color: "#07aff7"

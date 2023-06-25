@@ -2,11 +2,11 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: A selection of intriguing projects derived from my academic and industrial background.
 to_publish: true
 nav: true
 nav_order: 2
-display_categories: [work, fun]
+display_categories: [DSI (Reichman University), NASLAB (Ben-Gurion University)]
 horizontal: false
 ---
 

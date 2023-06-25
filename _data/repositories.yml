@@ -2,6 +2,9 @@ github_users:
   - abrahami
 
 github_repos:
+  - NasLabBgu/rplace-engagement-prediction
+  - NasLabBgu/C3-contextual-community-comparison
   - abrahami/Constraint-Learning
   - abrahami/parler-hate-speech
-  
+  - abrahami/reddit_place
+  - idc-dsi/DiaCorpus
