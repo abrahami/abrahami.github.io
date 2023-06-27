@@ -16,13 +16,13 @@
       year: 2018-
       description:
         - Computational Social Science.
-        - Dissertation Title - "Complex Modeling of Online Communities".
+        - Dissertation Title - Multi Modal Approaches for Modeling the Dynamics of Online Communities.
         - Supervisor - Dr. Oren Tsur.
     - title: MSc in machine learning and data science 
       institution: Ben-Gurion University, Israel
       year: 2015-2018
       description:
-        - Resgression models, machine learning.
+        - Regression models, machine learning.
         - Thesis title - "Constraint learning based gradient boosting trees".
         - Supervisors - Prof. Lior Rokach and Prof. Asaf Shabtai.
     - title: BSc in Industrial Engineering & Mgmt and BA in Economics 
@@ -59,9 +59,9 @@
       year: 2020-Now
       description:
         - Leading all NLP and social-media research projects.
-        - Collaborations with the Israel Innovation Authority
+        - Collaborations with the Israel Innovation Authority.
         - Projects are typically consist of 6-10 researchers.
-        - Advising under-graduate and Master's studens
+        - Advising under-graduate and Master's students.
     - title: Senior Data Scientist
       institution: Advanced Analytics, Intel
       year: 2018-2020

@@ -1,80 +1,41 @@
 ---
 layout: page
 title: The Mine
-description: Exploring the influence of users in an online dialogue
+description: exploring the influence of users in an online dialogue
 img: assets/img/the_mine/theMine_front.png
 importance: 2
 category: DSI (Reichman University)
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+In this project, we use Natural language processing (NLP) techniques to <b>quantify the influence</b> within a conversation between two users. We use existing NLP algorithms as well as developing new ones in order to estimate the influence solely based on textual data.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+We use social media data for the project purpose. We focus on <b>Twitter</b> due to the high activity volume in the platform and the availability of the data. We focus on spoken Arabic language. We do no limit our research to a specific domain (e.g., politics, sports) within the Arabic corpus.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+<!--<a href="TBD" class="card-link">Project website</a>-->
+<a href="https://www.runi.ac.il/en/research-institutes/business/dsi/focus-areas/the-mine-project/" class="card-link"><font size="+1">Project description (on the DSI website)</font></a>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/the_mine/the_mine_structure.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    High level flow of the project.
 </div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+
+<div class="card">
+    <div class="card-body">
+        <h5 class="card-title">Human-Directed Sentiment Analysis</h5>
+        <p class="card-text">As part of The Mine project, we introduced a new sentiment analysis task for detecting the <b>sentiment</b> that is expressed by a user <b>toward another user</b> in a discussion thread. The paper, describing this new task has been published on <a href="http://nsurl.org/">NSURL, 2022</a></p>    
+    </div>
+    <ul class="list-group list-group">
+        <li class="list-group-item"><u>Date Sources:</u> Twitter threads. </li>
+        <li class="list-group-item"><u>Data Annotation:</u> human annotation of sentiment between two users on a Twitter conversation.</li>
+        <li class="list-group-item"><u>Modeling:</u> BERT models to predict the human-directed sentiment.</li>
+    </ul>
+    <div class="card-body">
+        <a href="https://aclanthology.org/2022.nsurl-1.4.pdf" class="card-link">Publication</a>
+        <a href="https://huggingface.co/DSI/human-directed-sentiment" class="card-link">HuggingFace Model</a>
+        <a href="https://github.com/idc-dsi/Human-Directed-Sentiment" class="card-link">Git Repository</a>      
     </div>
 </div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
-
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
