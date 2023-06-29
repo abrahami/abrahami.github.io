@@ -51,19 +51,17 @@
     <script src="/al-folio/assets/js/dark_mode.js"></script>
     
 
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-7YD2CWYKGW"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-7YD2CWYKGW');
-  </script>
-  </head>
+  <!-- Avrahami added the next rows!! Google tag (gtag.js), as recommended here: https://www.howtotechwriting.com/post/2021-10-07-how-to-add-analytics-to-jekyll/ -->
+</head>
+<body>
+<p>
+  {% if site.google_analytics %}
+  {% include analytics.html %}
+  {% endif %}
+  
 
   <!-- Body -->
-  <body class="fixed-top-nav ">
+  </p>
 
     <!-- Header -->
     <header>
@@ -360,5 +358,6 @@
   }
 </script>
 
-  </body>
+  
+</body>
 </html>
