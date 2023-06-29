@@ -50,16 +50,18 @@
     
 
   <!-- Avrahami added the next rows!! Google tag (gtag.js), as recommended here: https://www.howtotechwriting.com/post/2021-10-07-how-to-add-analytics-to-jekyll/ -->
-</head>
-<body>
-<p>
-  {% if site.google_analytics %}
-  {% include analytics.html %}
-  {% endif %}
-  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-7YD2CWYKGW"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', '{{ site.google_analytics }}');
+</script>
+  </head>
 
   <!-- Body -->
-  </p>
+  <body class="fixed-top-nav ">
 
     <!-- Header -->
     <header>
@@ -524,6 +526,5 @@
   }
 </script>
 
-  
-</body>
+  </body>
 </html>
