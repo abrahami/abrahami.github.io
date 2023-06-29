@@ -123,7 +123,7 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 
 blog_name: Avrahami # blog_name will be displayed in your blog page
 blog_nav_title: # your blog must have a title for it to be displayed in the nav bar. Avrahami: changed it to be empty (no blog for now)
-blog_description: a simple whitespace theme for academics
+blog_description: Personal website of Avrahami. Data Scientist and a Ph.D. candidate.
 permalink: /blog/:year/:title/
 
 # Pagination
