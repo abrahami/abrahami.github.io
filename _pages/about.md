@@ -9,8 +9,8 @@ profile:
   image: avrahami_picture_2022.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>Office 106, Building 96</p>
-    <p>Ben Gurion University</p>
+    <p>Office 106/96</p>
+    <p>Ben Gurion University,</p>
     <p>Beer-Sheva, Israel</p>
 
 news: true  # includes a list of news items

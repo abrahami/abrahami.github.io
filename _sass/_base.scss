@@ -121,6 +121,7 @@ blockquote {
     margin-bottom: 5px;
     margin-top: 5px;
     font-family: monospace;
+    font-size: 13px;
 
     p {
       display: inline-block;
@@ -139,7 +140,7 @@ blockquote {
 
 @media (min-width: 576px) {
   .profile {
-    width: 27%;
+    width: 15%;
 
     .address {
       p {
@@ -530,8 +531,8 @@ footer.sticky-bottom {
   }
 
   h2.category {
-    color: var(--global-divider-color);
-    border-bottom: 1px solid var(--global-divider-color);
+    color: var(--global-tip-block);
+    border-bottom: 1px solid var(--global-tip-block);
     padding-top: 0.5rem;
     margin-top: 2rem;
     margin-bottom: 1rem;
@@ -562,8 +563,8 @@ footer.sticky-bottom {
   }
 
   h2.year {
-    color: var(--global-divider-color);
-    border-top: 1px solid var(--global-divider-color);
+    color: var(--global-tip-block);
+    border-top: 1px solid var(--global-tip-block);
     padding-top: 1rem;
     margin-top: 2rem;
     margin-bottom: -2rem;
