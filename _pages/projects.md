@@ -1,6 +1,6 @@
 ---
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
 description: A selection of intriguing projects derived from my academic and industrial background.
 to_publish: true

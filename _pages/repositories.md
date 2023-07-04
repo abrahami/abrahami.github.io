@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /repositories/
-title: repositories
+title: Repositories
 description: I publish most of the code I use for research. I code mainly in Python. I know R and SQL well and use them where needed.
 to_publish: true
 nav: true
