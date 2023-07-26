@@ -21,3 +21,7 @@
 "NSURL":
   url: http://nsurl.org/
   color: "#07aff7"
+
+"ICWSM":
+  url: https://www.icwsm.org/2023/index.html/index.html
+  color: "#9f0018"
