@@ -15,7 +15,7 @@ We decided to support the same custom blockquotes as in [jekyll-gitbook](https:/
 /* Tips, warnings, and dangers */
 .post .post-content blockquote {
     &.block-tip {
-    border-color: var(--global-tip-block);
+    border-color: var(--global-warning-block-title);
     background-color: var(--global-tip-block-bg);
 
     p {

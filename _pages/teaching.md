@@ -15,6 +15,8 @@ nav_order: 5
 
 <h8 class="card-subtitle font-bold">The feedback provided by students is displayed on the right-hand side (when available). These surveys, which are conducted anonymously, are implemented by each academic institution. </h8>
 <br>
+
+
 <h3 style="color: #4b9cd3;" id="BGU"><a href="https://in.bgu.ac.il/en/pages/default.aspx">Ben-Gurion University</a></h3>
 <!-- Advanced Statistics -->
 <div class="card mt-3">
@@ -28,8 +30,9 @@ nav_order: 5
     <ul class="card-text font-weight-light list-group list-group-flush">
       <li class="list-group-item">
         <div class="row">
-          <div class="col-sm-9">
-            Winter 22'-23', 83 Students <br> <b>Lecturer.</b> Full responsibility to the course content, TAs, and exams 
+        <!-- The style here (font color black) is only because in a dark background, the text is not sharp enough for some reason -->
+          <div class="col-sm-9" style="color: black">
+            Winter 22'-23', 83 Students <br> <b>Lecturer.</b> Full responsibility for the course content, TAs, and exams 
           </div>
           <div class="col-sm-3">
             <a href="../assets/teaching_feedbacks/stats_winter_2023.xls" download>Students Feedback</a>
@@ -38,8 +41,9 @@ nav_order: 5
       </li>
       <li class="list-group-item">
         <div class="row">
-          <div class="col-sm-9">
-            Winter 21'-22', 74 Students <br> <b>Lecturer.</b> Full responsibility to the course content, TAs, and exams
+          <!-- The style here (font color black) is only because in a dark background, the text is not sharp enough for some reason -->
+          <div class="col-sm-9" style="color: black">
+            Winter 21'-22', 74 Students <br> <b>Lecturer.</b> Full responsibility for the course content, TAs, and exams
           </div>
           <div class="col-sm-3">
             <a href="../assets/teaching_feedbacks/stats_winter_2022.xls" download>Students Feedback</a>
@@ -62,7 +66,8 @@ nav_order: 5
     <ul class="card-text font-weight-light list-group list-group-flush">
       <li class="list-group-item">
         <div class="row">
-          <div class="col-sm-9">
+          <!-- The style here (font color black) is only because in a dark background, the text is not sharp enough for some reason -->
+          <div class="col-sm-9" style="color: black">
             Spring 20'-21', 107 Students <br> <b>Head Teaching Assistant.</b> Responsibility to the tutorials, HWs, and exams 
           </div>
           <div class="col-sm-3">
@@ -72,7 +77,8 @@ nav_order: 5
       </li>
       <li class="list-group-item">
         <div class="row">
-          <div class="col-sm-9">
+          <!-- The style here (font color black) is only because in a dark background, the text is not sharp enough for some reason -->
+          <div class="col-sm-9" style="color: black">
             Spring 19'-20', 117 Students <br> <b>Lecturer.</b> Full responsibility to the course content, TAs, and exams
           </div>
           <div class="col-sm-3">
@@ -96,7 +102,8 @@ nav_order: 5
     <ul class="card-text font-weight-light list-group list-group-flush">
       <li class="list-group-item">
         <div class="row">
-          <div class="col-sm-9">
+          <!-- The style here (font color black) is only because in a dark background, the text is not sharp enough for some reason -->
+          <div class="col-sm-9" style="color: black">
             Spring 22'-23', 84 Students <br> <b>Head Teaching Assistant.</b> Responsibility to the tutorials, HWs, and exams
           </div>
           <!-- ADD Feedback after the survey! -->
@@ -104,7 +111,8 @@ nav_order: 5
       </li>
       <li class="list-group-item">
         <div class="row">
-          <div class="col-sm-9">
+          <!-- The style here (font color black) is only because in a dark background, the text is not sharp enough for some reason -->
+          <div class="col-sm-9" style="color: black">
             Winter 20'-21', 89 Students <br> <b>Head Teaching Assistant.</b> Responsibility to the tutorials, HWs, and exams
           </div>
           <div class="col-sm-3">
@@ -132,7 +140,8 @@ nav_order: 5
     <ul class="card-text font-weight-light list-group list-group-flush">
       <li class="list-group-item">
         <div class="row">
-          <div class="col-sm-9">
+          <!-- The style here (font color black) is only because in a dark background, the text is not sharp enough for some reason -->
+          <div class="col-sm-9" style="color: black">
             Spring 21'-22', 55 Students <br> <b>Head Teaching Assistant.</b> Responsibility to the tutorials, HWs, and final project
           </div>
           <div class="col-sm-3">
@@ -142,7 +151,8 @@ nav_order: 5
       </li>
       <li class="list-group-item">
         <div class="row">
-          <div class="col-sm-9">
+          <!-- The style here (font color black) is only because in a dark background, the text is not sharp enough for some reason -->
+          <div class="col-sm-9" style="color: black">
             Spring 20'-21', 46 Students <br> <b>Head Teaching Assistant.</b> Responsibility to the tutorials, HWs, and final project
           </div>
           <div class="col-sm-3">
@@ -152,7 +162,8 @@ nav_order: 5
       </li>
       <li class="list-group-item">
         <div class="row">
-          <div class="col-sm-9">
+          <!-- The style here (font color black) is only because in a dark background, the text is not sharp enough for some reason -->
+          <div class="col-sm-9" style="color: black">
             Spring 19'-20', 10 Students <br> <b>Head Teaching Assistant.</b> Responsibility to the tutorials, HWs, and final project
           </div>
           <!-- No feedback - COVID19 -->
@@ -178,7 +189,8 @@ nav_order: 5
     <ul class="card-text font-weight-light list-group list-group-flush">
       <li class="list-group-item">
         <div class="row">
-          <div class="col-sm-9">
+          <!-- The style here (font color black) is only because in a dark background, the text is not sharp enough for some reason -->
+          <div class="col-sm-9" style="color: black">
             Spring 2011-2012, 97 Students <br> <b>Head Teaching Assistant.</b> Responsibility to the TAs, tutorials, HWs, and exams
           </div>
           <div class="col-sm-3">
@@ -202,7 +214,8 @@ nav_order: 5
     <ul class="card-text font-weight-light list-group list-group-flush">
       <li class="list-group-item">
         <div class="row">
-          <div class="col-sm-9">
+          <!-- The style here (font color black) is only because in a dark background, the text is not sharp enough for some reason -->
+          <div class="col-sm-9" style="color: black">
             Spring 2010-2011, 88 Students <br> <b>Teaching Assistant.</b> Responsibility to the tutorials and HWs
           </div>
           <div class="col-sm-3">
@@ -212,7 +225,8 @@ nav_order: 5
       </li>
       <li class="list-group-item">
         <div class="row">
-          <div class="col-sm-9">
+          <!-- The style here (font color black) is only because in a dark background, the text is not sharp enough for some reason -->
+          <div class="col-sm-9" style="color: black">
             Winter 2010-2011, 47 Students <br> <b>Teaching Assistant.</b> Responsibility to the tutorials and HWs
           </div>
           <div class="col-sm-3">
@@ -236,7 +250,8 @@ nav_order: 5
     <ul class="card-text font-weight-light list-group list-group-flush">
       <li class="list-group-item">
         <div class="row">
-          <div class="col-sm-9">
+          <!-- The style here (font color black) is only because in a dark background, the text is not sharp enough for some reason -->
+          <div class="col-sm-9" style="color: black">
             Spring 2009-2010, 49 Students <br> <b>Teaching Assistant.</b> Responsibility to the tutorials and HWs
           </div>
           <div class="col-sm-3">
@@ -246,7 +261,8 @@ nav_order: 5
       </li>
       <li class="list-group-item">
         <div class="row">
-          <div class="col-sm-9">
+          <!-- The style here (font color black) is only because in a dark background, the text is not sharp enough for some reason -->
+          <div class="col-sm-9" style="color: black">
             Winter 2009-2010, 109 Students <br> <b>Teaching Assistant.</b> Responsibility to the tutorials and HWs
           </div>
           <div class="col-sm-3">

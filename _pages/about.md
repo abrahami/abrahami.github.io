@@ -31,11 +31,11 @@ Although I am researching social media platforms, I am not too active on those ð
 
 <div class="row">
   <div class="col-sm-4">
-    <div class="card border-primary mb-3">
+    <div class="card border-warning mb-3">
       <div class="card-header">Keywords</div>
       <div class="card-body text-primary">
         <h5 class="card-title">General</h5>
-        <p class="card-text" style="color: blue">Data Science, machine learning, data mining, artificial intelligence.</p>
+        <p class="card-text" style="color: orange">Data Science, machine learning, data mining, artificial intelligence.</p>
       </div>
     </div>
   </div>
@@ -44,7 +44,7 @@ Although I am researching social media platforms, I am not too active on those ð
       <div class="card-header">Keywords</div>
       <div class="card-body text-secondary" >
         <h5 class="card-title">Data Science</h5>
-        <p class="card-text" style="color: purple">Natural language processing, computational linguistics, sentiment analysis, social network analysis, information retrieval.</p>
+        <p class="card-text" style="color: violet">Natural language processing, computational linguistics, sentiment analysis, social network analysis, information retrieval.</p>
       </div>
     </div>
   </div>
