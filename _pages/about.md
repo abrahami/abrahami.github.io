@@ -19,6 +19,10 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
+<!-- Abraham Israeli -->
+<!-- Avrahami Israeli -->
+<!-- Abrahami Israeli -->
+<!-- Avraham Israeli -->
 My name is Abraham Israeli, although those familiar with me refer to me as <b> Avrahami</b>. I am a data scientist with research and industry experience of 10+ years. My professional focus lies in the field of machine learning research, particularly within the realm of <b>computational social science</b>.
 
 Currently, I am a Ph.D. candidate at the Ben Gurion University of the Negev, advised by <b>Dr. Oren Tsur</b>. I am a member of the Natural Language Processing and Social Dynamics lab (<a href="https://www.naslab.ise.bgu.ac.il/">NASLB</a>) within the Software and Information Systems Engineering department (<a href="https://in.bgu.ac.il/en/engn/sise/ennew/Pages/default.aspx">SISE</a>).
