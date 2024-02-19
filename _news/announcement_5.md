@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-The next stop is University of Michigan! I plan to start my postdoc research position on February at the School of Information (UMSI)</a>.
+The next stop is University of Michigan! I am about to start my position as a postdoc fellow at the School of Information (UMSI) on February.
