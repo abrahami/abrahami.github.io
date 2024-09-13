@@ -23,9 +23,9 @@ social: true  # includes social icons at the bottom of the page
 <!-- Avrahami Israeli -->
 <!-- Abrahami Israeli -->
 <!-- Avraham Israeli -->
-My name is Abraham Israeli, although those familiar with me refer to me as <b> Avrahami</b>. I am a data scientist with research and industry experience of 10+ years. My professional focus lies in the field of machine learning research, particularly within the realm of <b>computational social science</b>.
+My name is Abraham Israeli, some refer to me as <b> Avrahami</b>. I am a data scientist with research and industry experience of 10+ years. My professional focus lies in the field of machine learning research, particularly within the realm of <b>computational social science</b>.
 
-Currently, I am a Ph.D. candidate at the Ben Gurion University of the Negev, advised by <b>Dr. Oren Tsur</b>. I am a member of the Natural Language Processing and Social Dynamics lab (<a href="https://www.naslab.ise.bgu.ac.il/">NASLB</a>) within the Software and Information Systems Engineering department (<a href="https://in.bgu.ac.il/en/engn/sise/ennew/Pages/default.aspx">SISE</a>).
+Currently, I am a Post-Doctoral researcher at the University of Michigan. Ph.D. candidate at the Ben Gurion University of the Negev, advised by <b>Dr. Oren Tsur</b>. I am a member of the Natural Language Processing and Social Dynamics lab (<a href="https://www.naslab.ise.bgu.ac.il/">NASLB</a>) within the Software and Information Systems Engineering department (<a href="https://in.bgu.ac.il/en/engn/sise/ennew/Pages/default.aspx">SISE</a>).
 
 Alongside my Ph.D. studies, I am a Research Fellow at <b>the Data Science Institute</b> (<a href="https://www.runi.ac.il/en/research-institutes/business/dsi/">DSI</a>), Reichman University. I lead research projects associated with Natural Language Processing (NLP) and Social Analytics. I manage teams of 6-10 researchers, most of whom are undergraduate and master's students. These projects are strongly related to my Ph.D. research field.
 

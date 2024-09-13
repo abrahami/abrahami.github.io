@@ -3,7 +3,6 @@ group :jekyll_plugins do
     gem 'classifier-reborn'
     gem 'jekyll'
     gem 'jekyll-archives'
-    gem 'jekyll-diagrams'
     gem 'jekyll-email-protect'
     gem 'jekyll-feed'
     gem 'jekyll-imagemagick'
@@ -23,3 +22,5 @@ group :other_plugins do
     gem 'feedjira'
     gem 'httparty'
 end
+
+# this used to be in the jekyll_plugins (but I removed it) gem 'jekyll-diagrams'
