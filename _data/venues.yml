@@ -25,3 +25,7 @@
 "ICWSM":
   url: https://www.icwsm.org/2023/index.html/index.html
   color: "#9f0018"
+
+  "LREC-COLING":
+  url: http://deem-workshop.org/
+  color: "#009f0d"
