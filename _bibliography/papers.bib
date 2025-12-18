@@ -132,9 +132,9 @@
   abbr={ICWSM},
   title={With Flying Colors: Predicting Community Success in Large-scale Collaborative Campaigns},
   author={Israeli, Abraham and Tsur, Oren},
-  journal={arXiv preprint arXiv:2307.09650},
-  month = {july},
-  year={2023},
+  journal={Proceedings of the International AAAI Conference on Web and Social Media},
+  month={May},
+  year={2024},
   abstract={Online communities develop unique characteristics, establish social norms, and exhibit distinct dynamics among their members. 
             Activity in online communities often results in concrete ``off-line'' actions with a broad societal impact (e.g., political street protests and norms related to sexual misconduct). 
             While community dynamics, information diffusion, and online collaborations have been widely studied in the past two decades, quantitative studies that measure the effectiveness of online communities in promoting their agenda are scarce. 
@@ -142,18 +142,18 @@
             We consider an array of definitions for success level; each is geared toward different aspects of collaborative achievement. We experiment with several hybrid models, combining various types of features. Our models significantly outperform all baseline models over all definitions of `success level'. 
             Analysis of the results and the factors that contribute to the success of coordinated campaigns can provide a better understanding of the resilience or the vulnerability of communities to online social threats such as election interference or anti-science trends. 
             We make all data used for this study publicly available for further research.},
-  url={https://arxiv.org/pdf/2307.09650.pdf},
-  html={https://arxiv.org/pdf/2307.09650.pdf},
+  url={https://ojs.aaai.org/index.php/ICWSM/article/view/31344/33504},
+  html={https://ojs.aaai.org/index.php/ICWSM/article/view/31344/33504},
   pdf={icwsm_rplace_2023.pdf}              
 }
 
 @article{marzea2024aggreghate,
-  abbr={arXiv},
+  abbr={WOAH},
   title={AggregHate: An Efficient Aggregative Approach for the Detection of Hatemongers on Social Platforms},
   author={Marzea, Tom and Israeli, Abraham and Tsur, Oren},
-  journal={arXiv preprint arXiv:2409.14464},
-  month = {September},
-  year={2024},
+  journal={Proceedings of the The 9th Workshop on Online Abuse and Harms (WOAH)},
+  month = {July},
+  year={2025},
   abstract={Automatic detection of online hate speech serves as a crucial step in the detoxification of the online discourse. 
   Moreover, accurate classification can promote a better understanding of the proliferation of hate as a social phenomenon. 
   While most prior work focus on the detection of hateful utterances, we argue that focusing on the user level is as important, albeit challenging. 
@@ -205,5 +205,42 @@
   url={https://aclanthology.org/2024.lrec-main.436.pdf},
   html={https://aclanthology.org/2024.lrec-main.436.pdf},
   pdf={diaset_lrec_2024.pdf}              
+}
+
+@article{israeli2024test,
+  abbr={arXiv},
+  title={A Test of Time: Predicting the Sustainable Success of Online Collaboration in Wikipedia},
+  author={Israeli, Abraham and Jurgens, David and Romero, Daniel},
+  journal={arXiv preprint arXiv:2410.19150},
+  month = {March},
+  year={2025},
+  abstract={The Internet has significantly expanded the potential for global collaboration, allowing millions of users to contribute to collective projects like Wikipedia.
+            While prior work has assessed the success of online collaborations, most approaches are time-agnostic, evaluating success without considering its longevity.
+            Research on the factors that ensure the long-term preservation of high-quality standards in online collaboration is scarce. In this study, we address this gap. 
+            We propose a novel metric, `Sustainable Success,' which measures the ability of collaborative efforts to maintain their quality over time.
+            Using Wikipedia as a case study, we introduce the SustainPedia dataset, which compiles data from over 40K Wikipedia articles, including each article's sustainable success label and more than 300 explanatory features such as edit history, user experience, and team composition.
+            Using this dataset, we develop machine learning models to predict the sustainable success of Wikipedia articles. Our best-performing model achieves a high AU-ROC score of 0.88 on average. Our analysis reveals important insights. 
+            For example, we find that the longer an article takes to be recognized as high-quality, the more likely it is to maintain that status over time (i.e., be sustainable). Additionally, user experience emerged as the most critical predictor of sustainability.
+            Our analysis provides insights into broader collective actions beyond Wikipedia (e.g., online activism, crowdsourced open-source software), where the same social dynamics that drive success on Wikipedia might play a role. We make all data and code used for this study publicly available for further research.},
+  url={https://arxiv.org/pdf/2410.19150},
+  html={https://arxiv.org/pdf/2410.19150},
+  pdf={test_of_time_2025.pdf}            
+}
+
+@article{israeli-etal-2025-million,
+  abbr={ACL},
+  title={The Million Authors Corpus: A Cross-Lingual and Cross-Domain Wikipedia Dataset for Authorship Verification},
+  author={Israeli, Abraham and Liu, Shuai and May, Jonathan and Jurgnes, David},
+  journal={Findings of the Association for Computational Linguistics},
+  month = {July},
+  year={2025},
+  abstract={Authorship verification (AV) is a crucial task for applications like identity verification, plagiarism detection, and AI-generated text identification.
+            However, datasets for training and evaluating AV models are primarily in English and primarily in a single domain.
+            This precludes analysis of AV techniques for generalizability and can cause seemingly valid AV solutions to, in fact, rely on topic-based features rather than actual authorship features.
+            To address this limitation, we introduce the Million Authors Corpus (MAC), a novel dataset encompassing contributions from dozens of languages on Wikipedia. It includes only long and contiguous textual chunks taken from Wikipedia edits and links those texts to their authors.
+            MAC includes 60.08 M textual chunks, contributed by 1.29 M Wikipedia authors. It enables broad-scale cross-lingual and cross-domain AV evaluation to ensure accurate analysis of model capabilities that are not overly optimistic. We provide baseline evaluations using state-of-the-art AV models as well as information retrieval models that are not AV-specific in order to demonstrate‘s unique cross-lingual and cross-domain ablation capabilities.},
+  url={https://aclanthology.org/2025.findings-acl.1335.pdf},
+  html={https://aclanthology.org/2025.findings-acl.1335.pdf},
+  pdf={million_acl_2025.pdf}            
 }
 
